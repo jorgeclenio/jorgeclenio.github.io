@@ -20,6 +20,11 @@ img.linkedIn {
     height: 40px;
 }
 
+img.github {
+    width: 40px;
+    height: 40px;
+}
+
 hr.grey {
     border-top: 3px solid #242424;
 }
