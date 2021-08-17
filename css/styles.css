@@ -10,14 +10,19 @@ body {
 }
 
 img {
-    width: 175px;
-    height: 175px;
+    width: 150px;
+    height: 150px;
     border-radius: 50px;
 }
 
 img.linkedIn {
-    width: 40px;
-    height: 40px;
+    width: 40px !important;
+    height: 40px !important;
+}
+
+img.github {
+    width: 40px !important;
+    height: 40px !important;
 }
 
 hr.grey {
