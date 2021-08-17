@@ -12,30 +12,35 @@ body {
 img {
     width: 175px;
     height: 175px;
-    border-radius: 100px;
+    border-radius: 50px;
 }
 
-#cardExterno {
-    width: 653px;
-    height: 320px;
-    background: #242424;
-    border: 3px solid #C4C4C4;
-    border-radius: 16px;
+img.linkedIn {
+    width: 40px;
+    height: 40px;
 }
 
-#cardInterno {
-    width: 633px;
-    height: 300px;
-    margin: 7px;
-    background: #C4C4C4;
-    border-radius: 16px;
-    padding: 10px 10px 10px 225px;
+hr.grey {
+    border-top: 3px solid #242424;
 }
 
-#cardInfos {
-    width: 398px;
-    height: 280px;
-    background: #242424;
-    border-radius: 16px;
+.link-decoration {
+    text-decoration: none !important;
 }
 
+.p-minium {
+    font-size: .8rem;
+}
+
+.col-hr {
+    padding: inherit !important;
+}
+
+.card {
+    border-radius: 0.5rem;
+}
+
+.img-icon {
+    max-width: 1rem;
+    height: auto;
+}
