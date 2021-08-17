@@ -1,14 +1,41 @@
-html,
-body {
-  height: 100%;
+html, body {
+    height: 100%;
 }
 
 body {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-align: center;
-  align-items: center;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  background-color: #242424;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #242424;
 }
+
+img {
+    width: 175px;
+    height: 175px;
+    border-radius: 100px;
+}
+
+#cardExterno {
+    width: 653px;
+    height: 320px;
+    background: #242424;
+    border: 3px solid #C4C4C4;
+    border-radius: 16px;
+}
+
+#cardInterno {
+    width: 633px;
+    height: 300px;
+    margin: 7px;
+    background: #C4C4C4;
+    border-radius: 16px;
+    padding: 10px 10px 10px 225px;
+}
+
+#cardInfos {
+    width: 398px;
+    height: 280px;
+    background: #242424;
+    border-radius: 16px;
+}
+
