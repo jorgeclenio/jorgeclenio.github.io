@@ -1,15 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
 
+html{
+    overflow-y:hidden;
+    overflow-x:hidden;
+}
+
 body{
+    margin: 0px;
     background-image: linear-gradient(to right, #242424, #FFFAFA);
 }
 
-h4, p {
+h4, p , footer{
+    color:  #242424;
     font-family: 'DM Sans', sans-serif;
 }
 
-.text-color{
-    color:  #242424;
+.alignment {
+    width: 80vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+}
+
+.box {
+    width: auto;
+    height: auto;
+}
+
+.alignment {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
 }
 
 .center{
@@ -19,7 +45,7 @@ h4, p {
 }
 
 .margin{
-    margin-top: 15px !important;
+    margin-top: 5px !important;
 }
 
 .margin-container{
