@@ -9,7 +9,7 @@ h4, p {
 }
 
 .text-color{
-    color: #242424;
+    color:  #242424;
 }
 
 .center{
@@ -29,4 +29,9 @@ h4, p {
 .size{
     width: 32px;
     height: 32px;
+}
+
+.text-footer{
+    font-size: 12px;
+    text-decoration: none;
 }
