@@ -6,22 +6,30 @@ html{
 }
 
 body{
-  margin: 0px;
+  margin: 0rem; /* 0px; */
   color: #FFFAFA !important;
-  background-image: linear-gradient(to right, #121212, #121212);
+  background-color: #121212 !important;
 }
 
 h5 {
   font-family: 'DM Sans', sans-serif;
 }
 
-.size {
-  height: 42px;
-  width: 42px;
+.icon-size {
+  height: 2.625rem; /* 42px; */
+  width: 2.625rem;  /* 42px; */
 }
 
-.margin-top {
-  margin-top: 1.25rem;
+.margin-top-20-px {
+  margin-top: 1.25rem !important; /* 20px; */
+}
+
+.margin-top-40-px {
+  margin-top: 2.5rem !important; /* 30px; */
+}
+
+.margin-left {
+  margin-left: 1.25rem !important;  /* 20px; */
 }
 
 .border-container {
