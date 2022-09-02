@@ -6,32 +6,28 @@ html{
 }
 
 body{
-  margin: 0rem; /* 0px; */
+  margin: 0rem;
   color: #FFFAFA !important;
   background-color: #121212 !important;
 }
 
-h5 {
+h2 {
   font-family: 'DM Sans', sans-serif;
 }
 
 .icon-size {
-  height: 42px;
-  width: 42px;
+  height: 32px;
+  width: 32px;
 }
 
 .margin-top-20-px {
-  margin-top: 1.25rem !important; /* 20px; */
+  margin-top: 1.25rem !important;
 }
 
 .margin-top-40-px {
-  margin-top: 2.5rem !important; /* 30px; */
+  margin-top: 2.5rem !important;
 }
 
 .margin-left {
-  margin-left: 1.563rem !important;  /* 25px; */
-}
-
-.border-container {
-  border: 1px solid #FFFAFA;
+  margin-left: 1.563rem !important;
 }
