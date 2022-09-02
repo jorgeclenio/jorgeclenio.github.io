@@ -31,3 +31,15 @@ h2 {
 .margin-left {
   margin-left: 1.563rem !important;
 }
+
+.a_box {
+  display: table;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.b_box {
+  display: table-cell;
+  vertical-align: middle;
+}
