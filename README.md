@@ -1,3 +1,3 @@
 # jorgeclenio.github.io
 
-Website pessoal
+Website pessoal com links direcionados as redes sociais... 🤓
